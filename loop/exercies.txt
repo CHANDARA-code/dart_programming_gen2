@@ -1,0 +1,12 @@
+Enter price (0 to finish): 10
+Enter price (0 to finish): 20
+Enter price (0 to finish): -5
+Invalid price! Skipping...
+Enter price (0 to finish): 30
+Enter price (0 to finish): 0
+
+--- Receipt ---
+Item: $10.0
+Item: $20.0
+Item: $30.0
+Total to pay: $60.0
