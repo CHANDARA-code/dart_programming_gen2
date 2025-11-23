@@ -1,0 +1,26 @@
+/*
+Exercise: "The Customer Loyalty Program"
+Scenario: You are building a system for a shop. Customers get a different "Status" based on how much money they spent today.
+
+The Rules:
+
+If they spent $500 or more, they are "VIP".
+
+If they spent $200 or more, they are "Gold".
+
+If they spent $100 or more, they are "Silver".
+
+If less 100$ 'Regular'.
+
+Requirements:
+
+Import dart:io.
+
+Ask the user for the amount.
+
+Convert (parse) that input from a text String into an Integer.
+
+Run the logic (VIP / Gold / Silver).
+
+Print the final status.
+*/
