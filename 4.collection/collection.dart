@@ -12,7 +12,7 @@
  * 
  * - Indexable: Each element has a zero-based index, which you can use to access it directly.
  * 
- * - Allow Duplicates: A list can contain the same value multiple times.
+ * - Allow Duplicates: A list can contain the same value multiple times. [1, 1, 3 ]
  * 
  * 
 */
@@ -34,7 +34,7 @@
  * - last: returns the last element (if the list is empty , it will throws an error)
  * - isEmpty: returns true if the list contains no elements
  * - isNotEmpty: returns true if the list contains at least one element.
- * - reversed: returns an iterable with the element in revers order.
+ * - reversed: returns an iterable with the element in revers order. e.g: original[1, 2, 3 ] => reverse [3,2,1]
 */
 
 /**
@@ -43,25 +43,25 @@
 
 /*
 * Adding Elements
-- add(value): 
-- addAll(collection)
-- insert(index, value)
+- add(value) => e.g: original[1, 2, 3 ] => add 4 => result [1,2,3,4]
+- addAll(collection) => e.g: original [1,2,3] => addAll [4,5,6] => reuslt [1,2,3,4,5,6]
+- insert(index, value) => e.g: orignal [1,2,3] => insert index: 1, value: 7 => result: [1, 7, 2,3]
 *
 */
 
 /*
 * Removing Elements
-- remove(value)
-- removeAt(index)
-- removeLast()
-- clear()
+- remove(value) => e.g: original[1, 2, 3 ] => remove 3 => result [1,2]
+- removeAt(index) => e.g: original [1,2,3] => index to remove: 1 => result [1,3]
+- removeLast() => e.g: original[1, 2, 3 ] => remove 3 => result [1,2]
+- clear() => e.g: original[1, 2, 3 ] => clear () => result []
 *
 */
 
 /*
 * Other Userful Methods
-- sort(): sorts the list in place. By defualt, it sorts in ascending order.
-- indexOf(value): Return the index of the first occurrence of a value, or -1 if it's not found.
+- sort(): sorts the list in place. By defualt, it sorts in ascending order. e.g: original[3,2,1 ] => sort() => result [1,2,3 ]
+- indexOf(value): Return the index of the first occurrence of a value, or -1 if it's not found.  e.g: original[3,2,1 ] => value input 3 => index: 0
 *
 */
 
