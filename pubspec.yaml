@@ -1,0 +1,7 @@
+name: async_programing
+description: Dart async programming examples
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.6.0
